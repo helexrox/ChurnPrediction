@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #eef2f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .result-box {
+      background-color: white;
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .result-box h2 {
+      color: #333;
+      margin-bottom: 1rem;
+    }
+    .result-box p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .probability {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    .back-btn {
+      display: inline-block;
+      padding: 0.6rem 1.5rem;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .back-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="result-box">
+    <h2>🔍 Churn Prediction Result</h2>
+    <p>{{ prediction_text }}</p>
+    <p class="probability">Confidence: {{ probability }}</p>
+    <a href="/" class="back-btn">Try Again</a>
+  </div>
+</body>
+</html>
