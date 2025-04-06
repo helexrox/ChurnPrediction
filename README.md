@@ -153,8 +153,8 @@ Also shows:
 💻 Aspiring Software Developer | 💡 Machine Learning Enthusiast
 
 📬 Connect:  
-- [LinkedIn](#)  
-- [GitHub](#)
+- [LinkedIn](www.linkedin.com/in/ankithpradeep)  
+- [GitHub](https://github.com/helexrox)
 
 ---
 
